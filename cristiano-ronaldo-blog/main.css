@@ -1,0 +1,44 @@
+
+html{
+    font-size: 22px;
+}
+}
+body{
+    background-color:ivory;
+    color:black(76, 172, 38);
+    a:hover , a:active{;
+        color:darkblue;
+        font-family: 'Georgia', 'Times New Roman', Times, serif;
+        font-family: 'Georgia', 'Times New Roman', Times, serif;
+    }
+        
+
+    a:visited{
+        color:black;
+    }
+    }
+    p{
+        width:70ch;
+    }
+    h1,h2,h3{
+        font-size:large;
+       x
+        
+        color:darkslategray
+      
+    }
+    p{
+
+        color:black;
+    }
+
+    }
+    dl{
+        color:lightslategrey;
+    }
+li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:indigo;
+}
+
+}
