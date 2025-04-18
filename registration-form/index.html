@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+       label{
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+    </style>
+</head>
+
+
+<body>
+     <div class="container">
+        <div class="left-section">
+            <div class="logo">
+                
+              <fieldset>
+                <legend>User Personal information</legend>
+        
+                <h2>Welcome to the User Registration Form! Please fill in your details below to create an account. <h2>
+                <p>Sign up <em>now</em> to get started.</p>
+                <h3>Let's do this!</h3>
+
+                <form >
+                    
+                          <label for="first-name">Enter your full name</label>
+                          <br>
+                          <input type="text" id="first-name" name="first-name" placeholder="eg:john cena" style="width:200px; height: 25px;" required>
+                          <br><br>                         
+                          <label for="email">Enter your email</label>
+                          <br>
+                          <input type="email" id="email" name="email" placeholder="cenajohn@gmail.com" style="width:200px; height: 25px;" required>
+                          <br><br>
+                          <label for="password">Password</label>
+                          <br>
+                          <input type="password" id="password" name="password" minlength="8" style="width:200px; height: 25px;" required >
+                          <br><br>
+                          <label for="confirm-password">Confirm your Password</label>
+                          <br>
+                          <input type="password" id="confirm-password" name="confirm-password" minlength="8" style="width:200px; height: 25px;" required>
+                          <br>
+                          <br>
+                          <label for="gender">Enter your gender</label>
+                          <br>
+                          <label for="male">Male</label>
+                          <input type="radio" name="male" >
+                          <label for="female">Female</label>
+                          <input type="radio" name="female" id="'female">
+                          <label for="others">Others</label>
+                          <input type="radio" name="others" id="others">
+                          <br> <br>
+                          <label for="dob">Enter your Date of Birth</label>
+                          <br>
+                          <input type="date" id="dob" name="dob" style="width:200px; height: 25px;" >
+                          <br> <br>
+                          <label for="address">Enter your Address</label>
+                          <br>
+                          <input type="text" id="address" name="address" placeholder="Noida sector 7" style="width:200px; height: 25px;"  required>
+                          <br><br>
+                          <button type="Submit">Submit</button>
+                  </form>              
+                    <p>Create an account ?<a href="#">Log in</a></p>  
+                  </fieldset> 
+         
+    
+</body>
+</html>
