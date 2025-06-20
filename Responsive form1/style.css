@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(193, 193, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 40px;
+}
+
+
+.form-container{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    margin-bottom:20px ;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+
+}
+input[type="submit"]{
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    font-weight: bold ;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+
+  font-size: 16px;
+  width: 300px;         /* already good */
+  padding: 12px;       /* increase padding for bigger height */
+       /* bigger font = bigger input box */
+  border-radius: 8px; /* optional: rounder corners */
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  border: 2px solid #ddd;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
